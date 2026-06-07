@@ -102,70 +102,7 @@ HabitBreakerAI/
 ├── ProcrastinationAnalyzer.java
 ├── DecisionEngine.java
 └── SmartDecisionEngine.java
-```
 
----
-
-## OOP Concepts Implemented
-
-### 1. Encapsulation
-
-Implemented in:
-
-* Task.java
-* TaskManager.java
-* BehaviorHistory.java
-
-Features:
-
-* Private data members
-* Controlled access through getters/setters
-* Data validation
-
-### 2. Inheritance
-
-Implemented through:
-
-```java
-public class ProcrastinationAnalyzer extends HabitAnalyzer
-```
-
-The child class inherits behavior from the abstract parent class.
-
-### 3. Polymorphism
-
-Method overriding:
-
-```java
-@Override
-public String analyzeTasks(...)
-```
-
-Runtime polymorphism is achieved using:
-
-```java
-HabitAnalyzer analyzer = new ProcrastinationAnalyzer();
-```
-
-### 4. Abstraction
-
-Using:
-
-Abstract Class:
-
-```java
-HabitAnalyzer
-```
-
-Interface:
-
-```java
-DecisionEngine
-```
-
-These define contracts while hiding implementation details.
-
----
 
 ## Technologies Used
 
